@@ -1,0 +1,116 @@
+/*
+====================================================
+||||||Shakti Gurung Custom Style Sheet |||||
+====================================================
+====================================================
+||||||Color Palette|||||
+====================================================
+light orange: #9F7154;
+dark orange:#B55E3A;
+white :#DDE1D8;
+lightgreen: #8B9A86;
+darkgreen:#3D4644;
+grey: #686C6E;
+====================================================
+||||||Fonts |||||
+====================================================
+font-family: 'Pacifico', cursive;
+font-family: 'Asap', sans-serif;
+font-family: 'Rokkitt', serif;
+/*====================================================
+||||||Color Palette|||||
+====================================================*/
+<style>
+@import url('https://fonts.googleapis.com/css?family=Asap|Pacifico|Rokkitt');
+</style>
+
+/*====================================================
+||||||HTML and Body |||||
+====================================================
+*/
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #fff;
+    color:#3D4644;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Asap', sans-serif;
+   color:
+}
+h3{
+    font-family: 'Pacifico', cursive;
+    color:#B55E3A;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #3D4644;
+}
+a:hover{
+    color: #9F7154;
+}
+p {
+    font-family: 'Rokkitt', serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+.page-wrapper{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+}
+header{
+    height: 60vh;
+    background: url('images/brainstorming-campaig.jpg') no-repeat;
+    opacity: 0.7; 
+    background-size: cover;
+}
+.intro h1{
+    top:0;
+    left: 0;
+    font-family: 'Pacifico', cursive;
+    position: relative ;
+    background-color: #DDE1D8;
+    opacity: 0.7;
+    font-size: 4rem;
+    color:#B55E3A;
+    margin-top:0;
+}
+.intro h2{
+    font-family:'Asap', sans-serif;
+    font-style:italic;
+    font-size: 2rem;
+    position: relative;
+    color:#B55E3A;
+}
+.intro h2 abbr{
+    color: #3D4644;
+    font-weight: 400;
+}
+.intro{
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    /* background-color: #DDE1D8; */
+}
+.summary{
+  color: #3D4644;
+  background-color: #9F7154;
+}
+.summary a:hover {
+    color:#DDE1D8;
+}
+/* .explaination{
+    margin-top: -50px;
+} */
