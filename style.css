@@ -11,6 +11,11 @@ white :#DDE1D8;
 lightgreen: #8B9A86;
 darkgreen:#3D4644;
 grey: #686C6E;
+lightblue:#54aadd;
+darkblue:#191e28;
+darkorange:#a9431f;
+lightbrown:#b9975a;
+white:#f5f7f7;
 ====================================================
 ||||||Fonts |||||
 ====================================================
@@ -18,7 +23,7 @@ font-family: 'Pacifico', cursive;
 font-family: 'Asap', sans-serif;
 font-family: 'Rokkitt', serif;
 /*====================================================
-||||||Color Palette|||||
+||||||Font Imports|||||
 ====================================================*/
 <style>
 @import url('https://fonts.googleapis.com/css?family=Asap|Pacifico|Rokkitt');
@@ -35,6 +40,9 @@ html, body{
 body{
     background-color: #fff;
     color:#3D4644;
+    /* background-image: url(images/enlightment.jpg);
+    /* opacity: 0.7; */
+    background-size:cover;   */
 }
 h1,
 h2,
@@ -43,11 +51,12 @@ h4,
 h5,
 h6 {
    font-family: 'Asap', sans-serif;
-   color:
+   color:#DDE1D8;
 }
 h3{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Rokkitt', serif;
     color:#B55E3A;
+    text-align: center;
 }
 a{
     list-style: none;
@@ -55,7 +64,7 @@ a{
     color: #3D4644;
 }
 a:hover{
-    color: #9F7154;
+    color: #a9431f;
 }
 p {
     font-family: 'Rokkitt', serif;
@@ -63,35 +72,42 @@ p {
     line-height: 24px;
     text-align: justify;
 }
-.page-wrapper{
+.page-wrapper{ 
     margin: auto;
     width: 90%;
     height: 100%;
     align-items: center;
 }
 header{
-    height: 60vh;
+    width:100%;
+    height:70vh;
     background: url('images/brainstorming-campaig.jpg') no-repeat;
-    opacity: 0.7; 
+    opacity:0.8; 
     background-size: cover;
 }
 .intro h1{
     top:0;
     left: 0;
+    text-align: center;
     font-family: 'Pacifico', cursive;
     position: relative ;
     background-color: #DDE1D8;
     opacity: 0.7;
     font-size: 4rem;
-    color:#B55E3A;
+    color:#a9431f;
     margin-top:0;
+    text-shadow: 2px 2px;
 }
 .intro h2{
     font-family:'Asap', sans-serif;
     font-style:italic;
+    text-align: center;
     font-size: 2rem;
     position: relative;
-    color:#B55E3A;
+    color:#f5f7f7;
+    background-color: #9F7154;
+    margin-top: -53px;
+    /* opacity:0.9; */
 }
 .intro h2 abbr{
     color: #3D4644;
@@ -105,9 +121,53 @@ header{
     /* background-color: #DDE1D8; */
 }
 .summary{
-  color: #3D4644;
-  background-color: #9F7154;
+    width: 40%;
+    height: 100%x;
+    margin-top:10px;
+    border-radius:10px;
+    color: #DDE1D8;
+    background-color: #9F7154;
+}
+.summary p:nth-child(1){
+    text-align: center;
+    padding: 8px 5px 0 5px;
+}
+.summary p:nth-child(2){
+    text-align: center;
+    padding: 0 0 8px 0;
 }
 .summary a:hover {
+    color:#DDE1D8;
+}
+.preamble{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    color:#DDE1D8;
+    background-color: #9F7154;
+    /* background-image: url(images/enlightment.jpg) no-repeat;
+    background-size:cover; */
+}
+.preamble h3:nth-child(1){
+    display: inline-block;
+    color:#191e28;
+    width: 30%;
+    text-align:center;
+    align-content: center;
+    padding: 2px;
+    background:#686C6E;
+    border-radius: 0 10px 10px 0;   
+}
+.preamble p:nth-child(2){
+    text-align: center;
+    color:#DDE1D8;
+}
+.preamble p:nth-child(3){
+    text-align: center;
+    color:#DDE1D8;
+}
+.preamble p:nth-child(4){
+    text-align: center;
     color:#DDE1D8;
 }
