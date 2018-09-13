@@ -52,10 +52,13 @@ h6 {
 }
 h3{
     font-family: 'Rokkitt', serif;
-    color:#B55E3A;
+    color:#DDE1D8;
     text-align: center;
+    /* background-color: #9F7154; */
+    /* width:30% */
 }
 a{
+    font-family:'Asap', sans-serif;
     list-style: none;
     text-decoration: none;
     color: #3D4644;
@@ -85,6 +88,7 @@ header{
     background: url('images/brainstorming-campaig.jpg') no-repeat;
     opacity:0.8; 
     background-size: cover;
+    box-shadow: 1px 2px 1px 2px #3D4644;
 }
 .intro h1{
     top:0;
@@ -94,13 +98,14 @@ header{
     position: relative ;
     background-color: #DDE1D8;
     opacity: 0.7;
-    font-size: 4rem;
+    font-size: 5rem;
     color:#a9431f;
     margin-top:0;
-    text-shadow: 2px 2px;
+    text-shadow: 2px 2px #00b9cf;;
 }
 .intro h2{
-    font-family:'Asap', sans-serif;
+    /* font-family:'Asap', sans-serif; */
+    font-family: 'Pacifico', cursive;
     font-style:italic;
     text-align: center;
     font-size: 2rem;
@@ -111,8 +116,9 @@ header{
     /* opacity:0.9; */
 }
 .intro h2 abbr{
-    color: #3D4644;
-    font-weight: 400;
+    
+    color: #00b9cf; 
+    /* font-weight: 400; */
 }
 .intro{
     top: 0;
@@ -125,11 +131,12 @@ header{
 .summary{
     width: 100%;
     height: 100%x;
-    margin-top:10px;
+    margin:10px 0 10px 0;
     /* border-radius:10px; */
     color: #DDE1D8;
     background-color: #9F7154; 
     float:left;
+    box-shadow: 5px 10px 8px #888888;
     
 }
 .summary p:nth-child(1){
@@ -211,8 +218,82 @@ header{
 /*====================================================
 ||||||Main supporting Section |||||
 ====================================================*/
-.main supporting{
-
+.explanation, .participation, .benefits, .requirements h3{
+    font-size: 2rem;
+}
+/* .explanation p{
+    display:none;
+}
+p.explanation h3:hover {
+    display:block;
+} */
+.explanation{
+    background-color:#00b9cf;
+    color:#3D4644;
+    padding:2%;
+    margin-top: 10px;
+}
+.explanation h3{
+    background-color: #9F7154;
+    display: inline-block;
+    float: left;
+    margin-right:10px;
+    padding: 5px;
+}
+.participation{
+    background-color: #3D4644;
+    color:#b9975a;
+    padding:2%;
+}
+.participation h3{
+    background-color: #9F7154;
+    display: inline-block;
+    float: right;
+    margin-left:10px;
+    padding: 5px;
+}
+.participation a{
+    color:#00b9cf;
+}
+.participation a:hover{
+    color:#b9975a;
+}
+.benefits{
+    background-color:#9F7154;
+    color:#3D4644;
+    padding:2%;
+}
+.benefits h3{
+    background-color: #b9975a;
+    display: inline-block;
+    float:left;
+    margin-right:10px;
+    padding: 5px;
+}
+.benefits a{
+    color:#00b9cf;
+}
+.benefits a:hover{
+    color:#b9975a;
+}
+.requirements{
+    background-color:#b9975a;
+    padding:2%;
+}
+.requirements h3{
+    background-color: #9F7154;
+    display:inline-block;
+    float:right;
+    margin-left:10px;
+    padding: 5px;
+}
+.requirements a{
+    color:#00b9cf; 
+    background-color:#f5f7f7;
+   
+}
+.requirements a:hover{
+    color:#3D4644;
 }
 /*====================================================
 ||||||Footer links|||||
@@ -220,6 +301,7 @@ header{
 footer{
     text-align: center;
     font-size: 1.5rem;
+    margin-top: 15px;
 }
 footer a{
     margin: 10px 10px;
@@ -250,7 +332,8 @@ footer :nth-child(5){
     background:#686C6E;
     opacity:0.9;
     width:100%;
-    margin-top:20px;
+    margin:20px 0 10px 0;
+    box-shadow: 1px 2px 1px 2px #3D4644;
 }
 .wrapper{
     display: grid;
@@ -266,21 +349,24 @@ footer :nth-child(5){
     color:#DDE1D8;
 }
 .design-selection, .design-archives, .zen-resources{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding-bottom: 0.5rem;
     text-align: justify;
     color:#DDE1D8;
     border-radius: 20px;
     border: 1px solid;
-    box-shadow: 3px 6px 3px 6px #3D4644;
+    box-shadow: 1px 2px 1px 2px #3D4644;
 }
 .design-selection h3, .design-archives h3, .zen-resources h3{
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 2rem;
     font-weight: 400;
-    text-decoration: underline;
-    margin-bottom: -10px;
+    color:#a9431f;
+    /* text-decoration: underline; */
+    border-bottom: 2px double #DDE1D8;
+    margin-bottom: -5px;
+    padding-top: -15px;
 }
 .sidebar .design-selection {
    background-color:#00b9cf;  
